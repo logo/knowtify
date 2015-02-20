@@ -1,0 +1,21 @@
+
+/**
+ * Knowtify logo.
+ */
+
+.logo[data-logo="Knowtify"] {
+  width: 0;
+}
+
+.logo[data-logo="Knowtify"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Knowtify"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Knowtify"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
